@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadContent</key>
+    <array>
+        <!-- First Tab: Anti Revoke and Anti Blacklist -->
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://gotmmm9atx.cloudflare-gateway.com/dns-query</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string>ocsp.apple.com</string>
+                    <string>ocsp2.apple.com</string>
+                    <string>mesu.apple.com</string>
+                    <string>valid.apple.com</string>
+                    <string>crl.apple.com</string>
+                    <string>certs.apple.com</string>
+                    <string>appattest.apple.com</string>
+                    <string>vpp.itunes.apple.com</string>
+                    <string>guzzoni-apple-com.v.aaplimg.com</string>
+                    <string>gdmf.apple.com</string>
+                    <string>axm-app.apple.com</string>
+                    <string>comm-cohort.ess.apple.com</string>
+                    <string>comm-main.ess.apple.com</string>
+                </array>
+            </dict>
+            <key>OnDemandRules</key>
+            <array>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                </dict>
+            </array>
+            <key>PayloadDisplayName</key>
+            <string>CookHub DNS V1 │ Anti Revoke and Anti Blacklist</string>
+            <key>PayloadIdentifier</key>
+            <string>CookHub.link.profile.antiBlacklist</string>
+            <key>PayloadOrganization</key>
+            <string>No more revokes!?!</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>beacons.ai/cookhub.antiBlacklist</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+
+        <!-- Second Tab: Anti Revoke and No Ads with AdGuard DNS -->
+        <dict>
+            <key>DNSSettings</key>
+            <dict>
+                <key>DNSProtocol</key>
+                <string>HTTPS</string>
+                <key>ServerURL</key>
+                <string>https://dns.adguard-dns.com/dns-query</string>
+                <key>SupplementalMatchDomains</key>
+                <array>
+                    <string>ocsp.apple.com</string>
+                    <string>ocsp2.apple.com</string>
+                    <string>mesu.apple.com</string>
+                    <string>valid.apple.com</string>
+                    <string>crl.apple.com</string>
+                    <string>certs.apple.com</string>
+                    <string>appattest.apple.com</string>
+                    <string>vpp.itunes.apple.com</string>
+                    <string>guzzoni-apple-com.v.aaplimg.com</string>
+                    <string>gdmf.apple.com</string>
+                    <string>axm-app.apple.com</string>
+                    <string>comm-cohort.ess.apple.com</string>
+                    <string>comm-main.ess.apple.com</string>
+                    <!-- Additional Ad-blocking domains -->
+                    <string>ads.google.com</string>
+                    <string>googleadservices.com</string>
+                    <string>doubleclick.net</string>
+                    <string>pagead2.googlesyndication.com</string>
+                    <string>adservice.google.com</string>
+                    <string>admob.com</string>
+                    <string>ads.yahoo.com</string>
+                    <string>adserver.yahoo.com</string>
+                    <string>ads.linkedin.com</string>
+                    <string>ads.twitter.com</string>
+                    <string>ads.facebook.com</string>
+                    <string>adservice.facebook.com</string>
+                    <string>securepubads.g.doubleclick.net</string>
+                    <string>pubads.g.doubleclick.net</string>
+                    <string>cdn.doubleclick.net</string>
+                    <string>delivery.d.switchadhub.com</string>
+                    <string>static.doubleclick.net</string>
+                    <string>ad-trackers.com</string>
+                    <string>adbrite.com</string>
+                    <string>adroll.com</string>
+                    <string>amazon-adsystem.com</string>
+                    <string>openx.net</string>
+                    <string>ads.aim.com</string>
+                    <string>moatads.com</string>
+                    <string>appads.com</string>
+                    <string>advertising.com</string>
+                    <string>servedbyopenx.com</string>
+                    <string>trackers.adblocker.com</string>
+                </array>
+            </dict>
+            <key>OnDemandRules</key>
+            <array>
+                <dict>
+                    <key>Action</key>
+                    <string>Connect</string>
+                </dict>
+            </array>
+            <key>PayloadDisplayName</key>
+            <string>CookHub DNS V1 │ Anti Revoke and Ad Blocker </string>
+            <key>PayloadIdentifier</key>
+            <string>CookHub.link.profile.noAds</string>
+            <key>PayloadOrganization</key>
+            <string>No more revokes!?!</string>
+            <key>PayloadType</key>
+            <string>com.apple.dnsSettings.managed</string>
+            <key>PayloadUUID</key>
+            <string>beacons.ai/cookhub.noAds</string>
+            <key>PayloadVersion</key>
+            <integer>1</integer>
+        </dict>
+    </array>
+    <key>PayloadDescription</key>
+    <string>CookHub first DNS made by khoindvn.better🇻🇳 and we recommend using this love khoindvn and CookHub &lt;3</string>
+    <key>PayloadDisplayName</key>
+    <string>CookHub DNS V1</string>
+    <key>PayloadIdentifier</key>
+    <string>cookhub.cloudflare.warp.com.profile</string>
+    <key>PayloadScope</key>
+    <string>User</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadUUID</key>
+    <string>cookhub.cloudflare-gateway.com.dnsSettings.managed</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+</dict>
+</plist>
